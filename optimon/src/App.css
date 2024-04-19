@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.mainClass {
+  padding-top: 0px;
+}
+
+.dark {
+  background-color: #353535;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: black;
+}
+
+.headerImage{
+  height: 50px;
+  /* mix-blend-mode: multiply; */
+}
+
+.headerLink {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.titleHeader {
+  font-weight: bold;
+  font-size: 18px;
+  margin: auto;
+  letter-spacing: 0.02rem;
+}
+
+.blackBackground {
+  background-color: #ffffff;
+}
+
+.lightBlueBackground {
+  background-color: #aa9958;
+  /* background-color: #697078; */
+}
+
+.darkBlueBackground {
+  background-color: #3500ad;
+}
+
+.buttonStyle {
+  background: none;
+  border: none;
+  margin: -16px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navigation {
+  height: 10%;
+  padding: 0px 30px;
+}
+
+.navigationText{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.optimonLogo{
+  height: 75px;
+}
+
+.navigationSection{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: -webkit-fill-available;
+}
+.fullHeightVh{
+  height: 100vh;
+}
+.autoHeight{
+  height: 90%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.darkHeaderClass{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.darkCell {
+  color: white;
+}
+
+.lightHeaderClass{
+  background-color: #aa9958;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+.MuiDataGrid-root .MuiDataGrid-cell {
+display: block;
+overflow: hidden;
+white-space: nowrap;
+border-bottom: 1px solid rgba(224, 224, 224, 1);
+text-overflow: ellipsis;
+font-weight: bold;
+}
